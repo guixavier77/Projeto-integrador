@@ -1,0 +1,73 @@
+@import url(./bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body,
+html{
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right,#1e87e8 , white);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+#header .navbar{
+    height: 70px;
+    transition: background ease-out .2s;
+}
+
+.nav-item {
+    justify-content: center;
+    display: inline;
+    margin: 0 180px;
+}
+
+
+.form-control{
+
+    border-radius: 50px;
+    background-color: #1e87e8;
+   
+}
+
+.form-inline{
+    border-color: none;
+}
+
+.img-fluid:hover{
+    opacity: 0.9;
+}
+::placeholder {
+    color: white;
+    font-size: 13px;
+}
+
+.login-btn{
+    background-color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    border-color: #1e87e8;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    border-color: rgb(132, 132, 133);
+    outline: none;
+}
+
+.lgnbtn{
+    color: #1e87e8;
+
+}
+
+.txtbtn-lgn{
+    color: #1e87e8;
+    font-family: roboto;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
